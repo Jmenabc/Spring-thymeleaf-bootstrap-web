@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Index-Lista de productos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<p th:text="'Hola,' + ${nombre}" />
+	<ul th:each="producto : ${listaproductos1}">
+		<li th:text="${producto.nombre}"></li>
+		<li th:text="${producto.precio}"></li>
+	</ul>
+	<h1>Bienvenidos a Spring</h1>
+</body>
+</html>
