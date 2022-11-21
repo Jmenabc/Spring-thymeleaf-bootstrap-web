@@ -5,15 +5,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-
+	<p th:text="'Hola,' + ${nombre}" />
 	<ul th:each="producto : ${listaproductos1}">
 		<li th:text="${producto.nombre}"></li>
 		<li th:text="${producto.precio}"></li>
 	</ul>
 	<h1>Bienvenidos a Spring</h1>
-	<p>Para navegar a cualquier ventana utiliza este menu</p>
-	<!-- <p th:text="'Hola,' + ${nombre}" /> -->
-	<a href="/HolaMundo">Hola Mundo</a>
-	<a href="/ListaPedidos">Lista Pedidos</a>
 </body>
 </html>
