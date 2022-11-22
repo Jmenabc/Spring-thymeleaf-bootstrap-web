@@ -1,5 +1,5 @@
 # Spring-thymeleaf-bootstrap-web
 
-#Indice
+# Indice
 1.-Tecnologías usadas
 2.-Versión
