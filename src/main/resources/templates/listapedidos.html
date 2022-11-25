@@ -20,8 +20,10 @@
 	</div>
 	<div class=" m-3 col d-flex justify-content-center">
 		<ul class="list-group" th:each="producto : ${lista}">
-			<li class="list-group-item" th:text="${producto.nombre}"></li>
-			<li class="list-group-item" th:text="${producto.precio}"></li>
+			<div class="p-2 rounded">
+				<li class="list-group-item" th:text="${producto.nombre}"></li>
+				<li class="list-group-item" th:text="${producto.precio}"></li>
+			</div>
 		</ul>
 	</div>
 </body>
